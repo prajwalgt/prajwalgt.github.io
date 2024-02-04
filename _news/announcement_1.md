@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Presented my first paper at the 5th International and 20th National Conference on Machines and Mechanisms (iNaCoMM2021), Indian Institute of Information Techology, Design and Manufacturing (IIITDM) Jabalpur!
+Presented my first [paper](https://link.springer.com/chapter/10.1007/978-981-19-3716-3_18) at the 5th International and 20th National Conference on Machines and Mechanisms (iNaCoMM2021), Indian Institute of Information Techology, Design and Manufacturing (IIITDM) Jabalpur! :tiger:
