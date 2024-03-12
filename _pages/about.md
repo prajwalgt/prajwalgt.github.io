@@ -18,7 +18,9 @@ latest_posts: false # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-Hello! I am Prajwal, a research assistant at the Aritificial Intellgence and Robotics Lab [(AIRL)](https://pranathimaiya.in/airl/), Indian Institute of Science (IISc), where I work on computer vision and roboticsz. I am advised by Prof. [Suresh Sundaram](https://scholar.google.com/citations?user=5iAMbhMAAAAJ&hl=en&oi=ao). 
+Hello! I am Prajwal, a research assistant at the Aritificial Intellgence and Robotics Lab [(AIRL)](https://pranathimaiya.in/airl/), Indian Institute of Science (IISc), where I work on computer vision and robotics. I am advised by Prof. [Suresh Sundaram](https://scholar.google.com/citations?user=5iAMbhMAAAAJ&hl=en&oi=ao). 
+
+
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
