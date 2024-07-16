@@ -2,14 +2,15 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Masters in Robotic Systems Development @<a href='https://www.ri.cmu.edu/'>The Robotics Institute, CMU</a>
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
+    <p>pgurunat@andrew.cmu.edu</p>
+    <p>prajwalg@cmu.edu</p>
     <p>123 your address street</p>
     <p>Your City, State 12345</p>
 
@@ -18,7 +19,9 @@ latest_posts: false # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-Hello! I am Prajwal, a research assistant at the Aritificial Intellgence and Robotics Lab [(AIRL)](https://pranathimaiya.in/airl/), Indian Institute of Science (IISc), where I work on computer vision and robotics. I am advised by Prof. [Suresh Sundaram](https://scholar.google.com/citations?user=5iAMbhMAAAAJ&hl=en&oi=ao). 
+Hello! I am Prajwal, an incoming MRSD student at Carnegie Mellon University!
+I am interested in embodied AI and network generalization techniques. My past work includes research in domain generalization for autonomous vehicles
+a research assistant at the Aritificial Intellgence and Robotics Lab [(AIRL)](https://pranathimaiya.in/airl/), Indian Institute of Science (IISc), where I work on computer vision and robotics. I am advised by Prof. [Suresh Sundaram](https://scholar.google.com/citations?user=5iAMbhMAAAAJ&hl=en&oi=ao). 
 
 
 
