@@ -11,8 +11,6 @@ profile:
   more_info: >
     <p>pgurunat@andrew.cmu.edu</p>
     <p>prajwalg@cmu.edu</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
 news: true # includes a list of news items
 latest_posts: false # includes a list of the newest posts
@@ -20,8 +18,21 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 Hello! I am Prajwal, an incoming MRSD student at Carnegie Mellon University!
-I am interested in embodied AI and network generalization techniques. My past work includes research in domain generalization for autonomous vehicles
-a research assistant at the Aritificial Intellgence and Robotics Lab [(AIRL)](https://pranathimaiya.in/airl/), Indian Institute of Science (IISc), where I work on computer vision and robotics. I am advised by Prof. [Suresh Sundaram](https://scholar.google.com/citations?user=5iAMbhMAAAAJ&hl=en&oi=ao). 
+I am interested in robot vision, embodied AI and network generalization techniques.<br><br>
+My past work includes research in domain generalization for autonomous vehicles and semantic segmentation of satellite imagery.
+During my tenure as a research assistant at the Artificial Intelligence and Robotics Lab [(AIRL)](https://pranathimaiya.in/airl/), Indian Institute of Science [(IISc)](https://iisc.ac.in/), I was advised bt Prof. [Suresh Sundaram](https://scholar.google.com/citations?user=5iAMbhMAAAAJ&hl=en&oi=ao). My work primarily focused on projects involving computer vision and robotics.<br><br>
+
+Recently, I have been working on continual domain generalization by employing VLMs.
+
+<p style="text-align:center">
+  <a href="mailto:prajwalg8@gmail.com">Email</a> &nbsp;/&nbsp;
+  <!-- <a href="assets/pdf/something.pdf">CV</a> &nbsp;/&nbsp; -->
+  <!-- <a href="data/something-bio.txt">Bio</a> &nbsp;/&nbsp; -->
+  <a href="https://scholar.google.com/citations?user=1D-q8wwAAAAJ&hl=en&oi=ao">Google Scholar</a> &nbsp;/&nbsp;
+  <a href="https://github.com/prajwalgt">GitHub</a>&nbsp;/&nbsp;
+  <a href="https://in.linkedin.com/in/prajwal-gurunath">LinkedIn</a>
+  <!-- <a href="https://twitter.com/something">Twitter</a> &nbsp;/&nbsp; -->
+</p>
 
 
 
