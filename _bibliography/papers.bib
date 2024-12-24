@@ -3,43 +3,12 @@
 
 @string{aps = {American Physical Society,}}
 
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
-}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
+article{PhysRev.47.777,
   abbr={PhysRev},
   title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
+  author={Einstein, A. and Podolsky, B. and Rosen, N.},
   abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
   journal={Phys. Rev.},
-  location={New Jersey},
   volume={47},
   issue={10},
   pages={777--780},
@@ -53,26 +22,10 @@
   pdf={example_pdf.pdf},
   altmetric={248277},
   dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
+  selected={true}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
+article{einstein1905movement,
   abbr={Ann. Phys.},
   title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
   author={Einstein, A.},
@@ -82,34 +35,57 @@
   year={1905}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@article{indraeye,
+  title={IndraEye: Infrared Electro-Optical Drone-based Aerial Object Detection Dataset},
+  author={Manjunath D and Prajwal Gurunath* and Sumanth Udupa* and Suresh Sundaram},
+  journal = {Submitted to NeurIPS Track Datasets and Benchmarks},
+  year={2024},
+  abstract = {Deep neural networks (DNNs) have demonstrated superior performance when trained on well-illuminated environments, given that the images are captured through an Electro-Optical (EO) camera, which offers rich texture content. In critical applications such as aerial surveillance, maintaining consistent reliability of DNNs throughout all times of the day is paramount, including during low-light conditions where EO cameras often struggle to capture relevant details. Furthermore, UAV-based aerial object detection encounters significant scale variability stemming from varying altitudes and slant angles, introducing an additional layer of complexity. Existing approaches consider only illumination change/style variations as the domain shift, while in aerial surveillance, correlation shifts also acts as a hindrance to the performance of DNNs. In this paper we propose a multi-sensor (EO-IR) labelled object detection dataset consisting of 5276 images with 142991 instances covering multiple viewing angles and altitudes, 7 backgrounds and at different times of the day. This dataset serves as an effective resource for UAV-based object detection, facilitating the development of robust DNNs capable of operating round-the-clock. Dataset and source codes are available at https://bit.ly/indraeye.},
+  preview = {indraeye.gif},
+  selected = {true}
 }
 
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
+@article{udupamrfp,
+  title={MRFP: Learning Generalizable Semantic Segmentation from Sim-2-Real with Multi-Resolution Feature Perturbation},
+  author={Sumanth Udupa* and Prajwal Gurunath* and Aniruddh Sikdar* and Suresh Sundaram},
+  journal = {IEEE/CVF Computer Vision and Pattern Recognition, CVPR},
+  year={2024},
+  pdf = {https://arxiv.org/abs/2311.18331},
+  code = {https://github.com/airl-iisc/MRFP},
+  abstract = {Deep neural networks have shown exemplary performance on semantic scene understanding tasks on source domains, but due to the absence of style diversity during training, enhancing performance on unseen target domains using only single source domain data remains a challenging task. Generation of simulated data is a feasible alternative to retrieving large style-diverse real-world datasets as it is a cumbersome and budget-intensive process. However, the large domain-specific inconsistencies between simulated and real-world data pose a significant generalization challenge in semantic segmentation. In this work, to alleviate this problem, we propose a novel MultiResolution Feature Perturbation (MRFP) technique to randomize domain-specific fine-grained features and perturb style of coarse features. Our experimental results on various urban-scene segmentation datasets clearly indicate that, along with the perturbation of style-information, perturbation of fine-feature components is paramount to learn domain invariant robust feature maps for semantic segmentation models. MRFP is a simple and computationally efficient, transferable module with no additional learnable parameters or objective functions, that helps state-of-the-art deep neural networks to learn robust domain invariant features for simulation-to-real semantic segmentation.},
+  preview = {mrfpgif.gif},
+  selected = {true}
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
+@article{sikdardeepmao,
+  title={DeepMAO: Deep Multi-Scale Aware Overcomplete Network for Building Segmentation in Satellite Imagery},
+  author={Aniruddh Sikdar* and Sumanth Udupa* and Prajwal Gurunath* and Suresh Sundaram},
+  journal = {Perception Beyond Visible Spectrum (PBVS) Workshop, CVPR},
+  year={2023},
+  abstract = {Building segmentation in large-scale aerial images is challenging, especially for small buildings in dense and cluttered urban environments. Complex building structures with highly varied geometric footprints pose an additional challenge for the building segmentation task in satellite imagery. In this work, we propose to tackle the issue of detecting and segmenting small and complex-shaped buildings in Electro-Optical (EO) and SAR satellite imagery. A novel architecture Deep Multi-scale Aware Overcomplete Network (DeepMAO), is proposed that comprises an overcomplete branch that focuses on fine structural features and an undercomplete (U-Net) branch tasked to focus on coarse, semantic-rich features. Additionally, a novel self-regulating augmentation strategy, "Loss-Mix," is proposed to increase pixel representation of misclassified pixels. DeepMAO is simple and efficient in accurately identifying small and geometrically complex buildings. Experimental results on SpaceNet 6 dataset, on both EO and SAR modalities, and the INRIA dataset show that DeepMAO achieves state-of-the-art building segmentation performance, including small and complex-shaped buildings with a negligible increase in the parameter count. In addition, the presence of the over-complete branch in DeepMAO helps in handling the speckle noise present in the SAR image modality.},
+  pdf = {https://openaccess.thecvf.com/content/CVPR2023W/PBVS/html/Sikdar_DeepMAO_Deep_Multi-Scale_Aware_Overcomplete_Network_for_Building_Segmentation_in_CVPRW_2023_paper.html},
+  code = {https://github.com/prajwalgt/DeepMAO},
+  preview = {deepmao_githubio.gif},
+  selected = {true}
+}
+
+@article{dhanushprajwaldynamic,
+  title={[Oral Presentation] Dynamic Characteristics of Human Hand-Arm System—Analytical and Simulation Approaches},
+  author={Raj Dhanush and Prajwal Gurunath and Prajwal Kamath and Ninad Murthy and C.V. Chandrashekara},
+  journal = {Recent Advances in Machines and Mechanisms, Springer Singapore},
+  year={2021},
+  abstract = {Investigation on the dynamic characteristics of the human hand-arm system plays a crucial role in assessing the health risks involved due to persistent exposure to hand transmitted vibrations (HTV), during operation of hand-operated tools. Finite element analysis and mathematical modelling are widely used computational tools to simulate dynamics of the hand-arm system and provide insights on the dynamic characteristics such as natural frequencies and mode shapes. For the present work, an anatomically accurate 3D model of the hand-arm system, developed using a CT scan, is simulated in ANSYS to determine the natural frequencies and mode shapes. Mathematical model of a three degree of freedom hand-arm system is developed using lumped mass approach, and dynamic characteristics are determined. Emphasis is given primarily to the torsional aspects of the hand-arm system, to analyze the effects of vibration in the vertical direction. A quantitative comparison of the results obtained through simulation and mathematical approaches is provided. The results obtained show good correlation with existing and literature and show good scope for further research in the area of biomechanical analysis on the hand-arm system.},
+  preview = {Btechpapervid.gif},
+  pdf = {https://link.springer.com/chapter/10.1007/978-981-19-3716-3_18},
+  selected = {true}
+}
+
+
+article{przibram1967letters,
+  bibtex_show={false},
+  title={Dynamic Characteristics of Human Hand-Arm System—Analytical and Simulation Approaches},
+  author={SI Raj Dhanush, Prajwal Gurunath, Prajwal Kamath, Ninad S. Murthy, Hendrik Antoon and Przibram, Karl},
+  year={2021},
   publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+  preview={wave-mechanics.gif}
 }
