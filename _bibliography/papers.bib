@@ -35,14 +35,49 @@ article{einstein1905movement,
   year={1905}
 }
 
+article{falcon,
+  title={FALCON: Learning Force-Adaptive Humanoid Loco-Manipulation},
+  author={Yuanhang Zhang and Yifu Yuan and Prajwal Gurunath and Tairan He and Shayegan Omidshafiei and Ali-akbar Agha-mohammadi and Marcell Vazquez-Chanlatte and Liam Pedersen and Guanya Shi},
+  journal = {in submission},
+  year={2025},
+  paper = {https://arxiv.org/abs/2505.06776#},
+  website = {https://lecar-lab.github.io/falcon-humanoid/}
+  abstract = {Domain-adaptive thermal object detection plays a key role in facilitating visible (RGB)-to-thermal (IR) adaptation by reducing the need for co-registered image pairs and minimizing reliance on large annotated IR datasets. However, inherent limitations of IR images, such as the lack of color and texture cues, pose challenges for RGB-trained models, leading to increased false positives and poor-quality pseudo-labels. To address this, we propose Semantic-Aware Gray color Augmentation (SAGA), a novel strategy for mitigating color bias and bridging the domain gap by extracting object-level features relevant to IR images. Additionally, to validate the proposed SAGA for drone imagery, we introduce the IndraEye, a multi-sensor (RGB-IR) dataset designed for diverse applications. The dataset contains 5,612 images with 145,666 instances, captured from diverse angles, altitudes, backgrounds, and times of day, offering valuable opportunities for multimodal learning, domain adaptation for object detection and segmentation, and exploration of sensor-specific strengths and weaknesses. IndraEye aims to enhance the development of more robust and accurate aerial perception systems, especially in challenging environments. Experimental results show that SAGA significantly improves RGB-to-IR adaptation for autonomous driving and IndraEye dataset, achieving consistent performance gains of +0.4% to +7.6% (mAP) when integrated with state-of-the-art domain adaptation techniques. The dataset and codes are available at this https URL.},
+  preview = {saga_gif.gif},
+  selected = {true}
+}
+@article{saga,
+  title={FALCON: Learning Force-Adaptive Humanoid Loco-Manipulation},
+  author={Yuanhang Zhang and Yifu Yuan and Prajwal Gurunath and Tairan He and Shayegan Omidshafiei and Ali-akbar Agha-mohammadi and Marcell Vazquez-Chanlatte and Liam Pedersen and Guanya Shi},
+  journal = {In Submission},
+  year={2025},
+  paper = {https://arxiv.org/abs/2505.06776#},
+  website = {https://lecar-lab.github.io/falcon-humanoid/},
+  abstract = {Humanoid loco-manipulation holds transformative potential for daily service and industrial tasks, yet achieving precise, robust whole-body control with 3D end-effector force interaction remains a major challenge. Prior approaches are often limited to lightweight tasks or quadrupedal/wheeled platforms. To overcome these limitations, we propose FALCON, a dual-agent reinforcement-learning-based framework for robust force-adaptive humanoid loco-manipulation. FALCON decomposes whole-body control into two specialized agents: (1) a lower-body agent ensuring stable locomotion under external force disturbances, and (2) an upper-body agent precisely tracking end-effector positions with implicit adaptive force compensation. These two agents are jointly trained in simulation with a force curriculum that progressively escalates the magnitude of external force exerted on the end effector while respecting torque limits. Experiments demonstrate that, compared to the baselines, FALCON achieves 2x more accurate upper-body joint tracking, while maintaining robust locomotion under force disturbances and achieving faster training convergence. Moreover, FALCON enables policy training without embodiment-specific reward or curriculum tuning. Using the same training setup, we obtain policies that are deployed across multiple humanoids, enabling forceful loco-manipulation tasks such as transporting payloads (0-20N force), cart-pulling (0-100N), and door-opening (0-40N) in the real world.},
+  preview = {falcon_pgt.gif},
+  selected = {true}
+}
+
+@article{saga,
+  title={SAGA: Semantic-Aware Gray color Augmentation for Visible-to-Thermal Domain Adaptation across Multi-View Drone and Ground-Based Vision Systems},
+  author={Manjunath D and Aniruddh Sikdar and Prajwal Gurunath and Sumanth Udupa and Suresh Sundaram},
+  journal = {Perception Beyond Visible Spectrum (PBVS) Workshop, CVPR},
+  year={2025},
+  paper = {https://arxiv.org/abs/2410.20953},
+  abstract = {Domain-adaptive thermal object detection plays a key role in facilitating visible (RGB)-to-thermal (IR) adaptation by reducing the need for co-registered image pairs and minimizing reliance on large annotated IR datasets. However, inherent limitations of IR images, such as the lack of color and texture cues, pose challenges for RGB-trained models, leading to increased false positives and poor-quality pseudo-labels. To address this, we propose Semantic-Aware Gray color Augmentation (SAGA), a novel strategy for mitigating color bias and bridging the domain gap by extracting object-level features relevant to IR images. Additionally, to validate the proposed SAGA for drone imagery, we introduce the IndraEye, a multi-sensor (RGB-IR) dataset designed for diverse applications. The dataset contains 5,612 images with 145,666 instances, captured from diverse angles, altitudes, backgrounds, and times of day, offering valuable opportunities for multimodal learning, domain adaptation for object detection and segmentation, and exploration of sensor-specific strengths and weaknesses. IndraEye aims to enhance the development of more robust and accurate aerial perception systems, especially in challenging environments. Experimental results show that SAGA significantly improves RGB-to-IR adaptation for autonomous driving and IndraEye dataset, achieving consistent performance gains of +0.4% to +7.6% (mAP) when integrated with state-of-the-art domain adaptation techniques. The dataset and codes are available at this https URL.},
+  preview = {saga_gif.gif},
+  selected = {true}
+}
+
 @article{indraeye,
   title={IndraEye: Infrared Electro-Optical Drone-based Aerial Object Detection Dataset},
   author={Manjunath D and Prajwal Gurunath* and Sumanth Udupa* and Suresh Sundaram},
-  journal = {Submitted to NeurIPS Track Datasets and Benchmarks},
+  journal = {arXiv preprint arXiv:2410.20953},
   year={2024},
+  website = {https://sites.google.com/view/indraeye},
   abstract = {Deep neural networks (DNNs) have demonstrated superior performance when trained on well-illuminated environments, given that the images are captured through an Electro-Optical (EO) camera, which offers rich texture content. In critical applications such as aerial surveillance, maintaining consistent reliability of DNNs throughout all times of the day is paramount, including during low-light conditions where EO cameras often struggle to capture relevant details. Furthermore, UAV-based aerial object detection encounters significant scale variability stemming from varying altitudes and slant angles, introducing an additional layer of complexity. Existing approaches consider only illumination change/style variations as the domain shift, while in aerial surveillance, correlation shifts also acts as a hindrance to the performance of DNNs. In this paper we propose a multi-sensor (EO-IR) labelled object detection dataset consisting of 5276 images with 142991 instances covering multiple viewing angles and altitudes, 7 backgrounds and at different times of the day. This dataset serves as an effective resource for UAV-based object detection, facilitating the development of robust DNNs capable of operating round-the-clock. Dataset and source codes are available at https://bit.ly/indraeye.},
   preview = {indraeye.gif},
-  selected = {true}
+  selected = {false}
 }
 
 @article{udupamrfp,
@@ -50,7 +85,7 @@ article{einstein1905movement,
   author={Sumanth Udupa* and Prajwal Gurunath* and Aniruddh Sikdar* and Suresh Sundaram},
   journal = {IEEE/CVF Computer Vision and Pattern Recognition, CVPR},
   year={2024},
-  pdf = {https://arxiv.org/abs/2311.18331},
+  paper = {https://arxiv.org/abs/2311.18331},
   code = {https://github.com/airl-iisc/MRFP},
   abstract = {Deep neural networks have shown exemplary performance on semantic scene understanding tasks on source domains, but due to the absence of style diversity during training, enhancing performance on unseen target domains using only single source domain data remains a challenging task. Generation of simulated data is a feasible alternative to retrieving large style-diverse real-world datasets as it is a cumbersome and budget-intensive process. However, the large domain-specific inconsistencies between simulated and real-world data pose a significant generalization challenge in semantic segmentation. In this work, to alleviate this problem, we propose a novel MultiResolution Feature Perturbation (MRFP) technique to randomize domain-specific fine-grained features and perturb style of coarse features. Our experimental results on various urban-scene segmentation datasets clearly indicate that, along with the perturbation of style-information, perturbation of fine-feature components is paramount to learn domain invariant robust feature maps for semantic segmentation models. MRFP is a simple and computationally efficient, transferable module with no additional learnable parameters or objective functions, that helps state-of-the-art deep neural networks to learn robust domain invariant features for simulation-to-real semantic segmentation.},
   preview = {mrfpgif.gif},
@@ -63,7 +98,7 @@ article{einstein1905movement,
   journal = {Perception Beyond Visible Spectrum (PBVS) Workshop, CVPR},
   year={2023},
   abstract = {Building segmentation in large-scale aerial images is challenging, especially for small buildings in dense and cluttered urban environments. Complex building structures with highly varied geometric footprints pose an additional challenge for the building segmentation task in satellite imagery. In this work, we propose to tackle the issue of detecting and segmenting small and complex-shaped buildings in Electro-Optical (EO) and SAR satellite imagery. A novel architecture Deep Multi-scale Aware Overcomplete Network (DeepMAO), is proposed that comprises an overcomplete branch that focuses on fine structural features and an undercomplete (U-Net) branch tasked to focus on coarse, semantic-rich features. Additionally, a novel self-regulating augmentation strategy, "Loss-Mix," is proposed to increase pixel representation of misclassified pixels. DeepMAO is simple and efficient in accurately identifying small and geometrically complex buildings. Experimental results on SpaceNet 6 dataset, on both EO and SAR modalities, and the INRIA dataset show that DeepMAO achieves state-of-the-art building segmentation performance, including small and complex-shaped buildings with a negligible increase in the parameter count. In addition, the presence of the over-complete branch in DeepMAO helps in handling the speckle noise present in the SAR image modality.},
-  pdf = {https://openaccess.thecvf.com/content/CVPR2023W/PBVS/html/Sikdar_DeepMAO_Deep_Multi-Scale_Aware_Overcomplete_Network_for_Building_Segmentation_in_CVPRW_2023_paper.html},
+  paper = {https://openaccess.thecvf.com/content/CVPR2023W/PBVS/html/Sikdar_DeepMAO_Deep_Multi-Scale_Aware_Overcomplete_Network_for_Building_Segmentation_in_CVPRW_2023_paper.html},
   code = {https://github.com/prajwalgt/DeepMAO},
   preview = {deepmao_githubio.gif},
   selected = {true}
@@ -76,16 +111,6 @@ article{einstein1905movement,
   year={2021},
   abstract = {Investigation on the dynamic characteristics of the human hand-arm system plays a crucial role in assessing the health risks involved due to persistent exposure to hand transmitted vibrations (HTV), during operation of hand-operated tools. Finite element analysis and mathematical modelling are widely used computational tools to simulate dynamics of the hand-arm system and provide insights on the dynamic characteristics such as natural frequencies and mode shapes. For the present work, an anatomically accurate 3D model of the hand-arm system, developed using a CT scan, is simulated in ANSYS to determine the natural frequencies and mode shapes. Mathematical model of a three degree of freedom hand-arm system is developed using lumped mass approach, and dynamic characteristics are determined. Emphasis is given primarily to the torsional aspects of the hand-arm system, to analyze the effects of vibration in the vertical direction. A quantitative comparison of the results obtained through simulation and mathematical approaches is provided. The results obtained show good correlation with existing and literature and show good scope for further research in the area of biomechanical analysis on the hand-arm system.},
   preview = {Btechpapervid.gif},
-  pdf = {https://link.springer.com/chapter/10.1007/978-981-19-3716-3_18},
+  paper = {https://link.springer.com/chapter/10.1007/978-981-19-3716-3_18},
   selected = {true}
-}
-
-
-article{przibram1967letters,
-  bibtex_show={false},
-  title={Dynamic Characteristics of Human Hand-Arm System—Analytical and Simulation Approaches},
-  author={SI Raj Dhanush, Prajwal Gurunath, Prajwal Kamath, Ninad S. Murthy, Hendrik Antoon and Przibram, Karl},
-  year={2021},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
 }
