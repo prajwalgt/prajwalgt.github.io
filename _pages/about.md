@@ -17,12 +17,12 @@ latest_posts: false # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-Hello! I am Prajwal, an incoming MRSD student at Carnegie Mellon University!
-I am interested in robot vision, embodied AI and network generalization techniques.<br><br>
-My past work includes research in domain generalization for autonomous vehicles and semantic segmentation of satellite imagery.
+Hello! I am Prajwal, a first year MRSD student at Carnegie Mellon University!
+I am interested in robot perception, physical intelligence, and generalization in neural architectures, with the goal of expediting real-world deployment of robotic systems.<br><br>
+My past work includes research in domain generalization for computer vision in autonomous vehicles and semantic segmentation of satellite imagery.
 During my tenure as a research assistant at the Artificial Intelligence and Robotics Lab [(AIRL)](https://pranathimaiya.in/airl/), Indian Institute of Science [(IISc)](https://iisc.ac.in/), I was advised by Prof. [Suresh Sundaram](https://scholar.google.com/citations?user=5iAMbhMAAAAJ&hl=en&oi=ao). My work primarily focused on projects involving computer vision and robotics.<br><br>
 
-Recently, I have been working on continual domain generalization by employing VLMs.
+Recently, at CMU I have been working on general autonomy for humanoids.
 
 <p style="text-align:center">
   <a href="mailto:prajwalg8@gmail.com">Email</a> &nbsp;/&nbsp;
