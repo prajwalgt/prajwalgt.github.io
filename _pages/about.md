@@ -9,8 +9,8 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>pgurunat@andrew.cmu.edu</p>
-    <p>prajwalg@cmu.edu</p>
+    <p>pgurunat@cs.cmu.edu</p>
+    <p>prajwalg8@gmail.com</p>
 
 news: true # includes a list of news items
 latest_posts: false # includes a list of the newest posts
