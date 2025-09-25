@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I will join the Humanoid Team at Nissan Advanced Technology Center as a Robotics Intern this summer.
+I will join Nissan Advanced Technology Center, Silicon Valley as a Robotics Intern focusing on humanoids this summer.
