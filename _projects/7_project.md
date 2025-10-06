@@ -5,7 +5,7 @@ description: Autonomous In-place Sorting of Items On Shelves SO(n)RT
 img: assets/img/mvp2.gif
 importance: 1
 category: work
-related_publications: true
+related_publications: false
 ---
 
 ## Problem Statement
