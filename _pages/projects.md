@@ -3,9 +3,10 @@ layout: page
 title: projects
 permalink: /projects/
 description: A growing collection of your cool projects.
-nav: false
+nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [work]
+# display_categories: [work, fun] # pgt edit
 horizontal: false
 ---
 
@@ -29,8 +30,8 @@ horizontal: false
     </div>
   </div>
   {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
+  <div class="row row-cols-1 row-cols-md-2">
+    {% for project in sorted_projects limit: 2 %}
       {% include projects.liquid %}
     {% endfor %}
   </div>
@@ -55,8 +56,8 @@ horizontal: false
     </div>
   </div>
   {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
+  <div class="row row-cols-1 row-cols-md-2">
+    {% for project in sorted_projects limit: 2 %}
       {% include projects.liquid %}
     {% endfor %}
   </div>
