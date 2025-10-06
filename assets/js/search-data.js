@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-projects",
+          title: "projects",
+          description: "A growing collection of your cool projects.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
         },{id: "nav-cv",
           title: "cv",
           description: "",
@@ -408,9 +415,14 @@ ninja.data = [{
           section: "News",},{id: "news-i-will-join-nissan-advanced-technology-center-silicon-valley-as-a-robotics-intern-focusing-on-humanoids-this-summer",
           title: 'I will join Nissan Advanced Technology Center, Silicon Valley as a Robotics Intern...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-your-project-name",
+          title: 'Your Project Name',
+          description: "Brief description of your project",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/10_project/";
+            },},{id: "projects-autonomous-humanoid-loco-manipulation-for-tote-logistics",
+          title: 'Autonomous Humanoid Loco-Manipulation for Tote Logistics',
+          description: "CMU MRSD Capstone Project, sponsored by Nissan and Field AI",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-project-2",
@@ -438,9 +450,9 @@ ninja.data = [{
           description: "a project with no image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
+            },},{id: "projects-autonomous-shelf-organizer",
+          title: 'Autonomous Shelf Organizer',
+          description: "Autonomous In-place Sorting of Items On Shelves SO(n)RT",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project/";
             },},{id: "projects-project-8",
