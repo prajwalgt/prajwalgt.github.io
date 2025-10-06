@@ -15,6 +15,7 @@ profile:
 news: true # includes a list of news items
 latest_posts: false # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
+projects: true # includes a list of projects
 social: true # includes social icons at the bottom of the page
 ---
 Hello! I am Prajwal, a second year MRSD student at Carnegie Mellon University!
