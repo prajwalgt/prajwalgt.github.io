@@ -2,7 +2,7 @@
 layout: page
 title: Autonomous Humanoid Loco-Manipulation for Tote Logistics
 description: CMU MRSD Capstone Project, sponsored by Nissan and Field AI
-img: assets/img/capstone.gif
+img: assets/img/capstone_uncompressed.gif
 importance: 1
 category: work
 ---
