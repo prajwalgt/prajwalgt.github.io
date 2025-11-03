@@ -14,6 +14,15 @@
           {% endif %}
           <table class="table-cv">
             <tbody>
+              {% if content.logo %}
+              <tr>
+                <td style="text-align: center;">
+                  <img src="{% if content.logo contains '://' %}{{ content.logo }}{% else %}{{ content.logo | prepend: '/assets/img/' | relative_url }}{% endif %}" 
+                       alt="{{ content.institution }}" 
+                       style="max-width: 120px; max-height: 120px; object-fit: contain; margin-bottom: 0.5rem; display: block; margin-left: auto; margin-right: auto;">
+                </td>
+              </tr>
+              {% endif %}
               <tr>
                 <td>
                   {% if date %}
