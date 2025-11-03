@@ -9,7 +9,7 @@ category: work
 
 **CMU MRSD Capstone Project, sponsored by [Nissan](https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ADVANCED_TECH_CENTER/) and [Field AI](https://www.fieldai.com/)**  
 **Advised by [Prof. Guanya Shi](https://www.gshi.me/)**  
-View the project website here: [project website](https://mrsdprojects.ri.cmu.edu/2025teamf/)
+View the project webpage here: [project webpage](https://mrsdprojects.ri.cmu.edu/2025teamf/)
 
 Developed the autonomy stack, specifically the perception for 6D pose estimation (NVIDIA FoundationPose) with motion-capture localization for precise perception and navigation. Combined the high-level planner with perception and humanoid control, trained in simulation with reinforcement learning.
 
