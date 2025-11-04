@@ -6,7 +6,8 @@
             "logo": "nissan-logo.jpg",
             "url": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ADVANCED_TECH_CENTER/",
             "startDate": "2025-05-01",
-            "endDate": "2025-08-01"
+            "endDate": "2025-08-01",
+            "topic": ["Humanoid Control with VLAs (Gr00t, diffusion policies)"]
           },
           {
             "name": "Indian Institute of Science, Bengaluru, India",
@@ -14,14 +15,16 @@
             "logo": "iisclogo.jpg",
             "url": "https://aero.iisc.ac.in/",
             "startDate": "2022-05-01",
-            "endDate": "2024-08-01"
+            "endDate": "2024-08-01",
+            "topic": ["Computer Vision Research (Generalization, Domain Adaptation, Sensor Fusion, Multi-modal Learning, Continual Learning)"]
           },
           {
             "name": "Wipro Technologies, Bengaluru, India",
             "position": "Project Engineer",
             "logo": "wipro.png",
             "startDate": "2021-11-01",
-            "endDate": "2022-04-01"
+            "endDate": "2022-04-01",
+            "topic": ["B2B Cloud Integration"]
           },          
           {
             "name": "Bosch, Bengaluru, India",
@@ -29,106 +32,36 @@
             "logo": "boschlogo.jpg",
             "url": "https://aero.iisc.ac.in/",
             "startDate": "2021-03-01",
-            "endDate": "2021-05-01"
+            "endDate": "2021-05-01",
+            "topic": ["Sensor Integration (vision, RFID)and Analytics for Assembly Line Optimization"]
+
           }
         ],
         "education": [
           {
             "institution": "Carnegie Mellon University, Pittsburgh, PA",
-            "location": "Pittsburgh, Pennsylvania",
+            "location": "Pittsburgh, PA",
             "url": "https://mrsd.ri.cmu.edu/",
             "logo": "cmulogo.jpg",
-            "area": "Robotic Systems Development",
+            "area": "Robotic Systems Development (MRSD)",
             "studyType": "Master of Science (M.S.)",
             "startDate": "2024-08-01",
             "endDate": "2026-05-01",
             "score": "3.9",
             "courses": ["Advanced Computer Vision", "Learning for 3D Vision", "Deep Reinforcement Learning", "Deep Learning Systems", "Robot Autonomy", "Robot Mobility", "Systems Engineering", "Advanced Robotics Business"]
+          },
+          {
+            "institution": "PES University, Bengaluru, India",
+            "location": "Bengaluru, India",
+            "url": "https://www.pes.edu/",
+            "logo": "peslogo.jpg",
+            "area": "Major: Mechanical Engineering; Minor: Computer Science and Engineering",
+            "studyType": "Bachelor of Technology (B.Tech.)",
+            "startDate": "2017-08-01",
+            "endDate": "2021-010-01",
+            "score": "3.7",
+            "courses": ["Machine Learning", "Control Engineering", "Design of Machine Elelments", "Design and Analysis of Algorithms"]
           }
-        ],
-        "certificates": [
-          {
-            "name": "Machine Learning",
-            "date": "2018-01-01",
-            "issuer": "Stanford University",
-            "url": "https://example.com",
-            "icon": "fa-solid fa-location-dot"
-          },
-          {
-            "name": "Quantum Computing",
-            "date": "2018-01-01",
-            "issuer": "Stanford University",
-            "url": "https://example.com",
-            "icon": "fa-solid fa-tag"
-          },
-          {
-            "name": "Quantum Information",
-            "date": "2018-01-01",
-            "issuer": "Stanford University",
-            "url": "https://example.com",
-            "icon": "fa-solid fa-envelope"
-          },
-          {
-            "name": "Quantum Cryptography",
-            "date": "2018-01-01",
-            "issuer": "Stanford University",
-            "url": "https://example.com",
-            "icon": "fa-solid fa-hashtag"
-          },
-          {
-            "name": "Quantum Communication",
-            "date": "2018-01-01",
-            "issuer": "Stanford University",
-            "url": "https://example.com",
-            "icon": "fa-solid fa-calendar"
-          },
-          {
-            "name": "Quantum Teleportation",
-            "date": "2018-01-01",
-            "issuer": "Stanford University",
-            "url": "https://example.com",
-            "icon": "fa-solid fa-clipboard-check"
-          }
-        ],
-        "skills": [
-          {
-            "name": "Physics",
-            "level": "Master",
-            "icon": "fa-solid fa-hashtag",
-            "keywords": [
-              "Quantum Mechanics",
-              "Quantum Computing",
-              "Quantum Information",
-              "Quantum Cryptography",
-              "Quantum Communication",
-              "Quantum Teleportation"
-            ]
-          }
-        ],
-        "languages": [
-          {
-            "language": "German",
-            "fluency": "Native speaker",
-            "icon": ""
-          },
-          {
-            "language": "English",
-            "fluency": "Fluent",
-            "icon": ""
-          }
-        ],
-        "interests": [
-          {
-            "name": "Physics",
-            "icon": "fa-solid fa-tag",
-            "keywords": [
-              "Quantum Mechanics",
-              "Quantum Computing",
-              "Quantum Information",
-              "Quantum Cryptography",
-              "Quantum Communication",
-              "Quantum Teleportation"
-            ]
-          }
+          
         ]
 }
