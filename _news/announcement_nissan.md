@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I will join Nissan Advanced Technology Center, Silicon Valley as a Robotics Intern focusing on humanoids this summer.
+Completed my summer internship at Nissan Advanced Technology Center, Silicon Valley, focusing on point-cloud perception and fine-tuning VLAs for humanoid manipulation. 

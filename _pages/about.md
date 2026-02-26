@@ -20,8 +20,10 @@ social: true # includes social icons at the bottom of the page
 ---
 Hello! I am Prajwal, a second year MRSD student at Carnegie Mellon University!
 I am interested in robot perception, physical intelligence, and generalization in neural architectures, with the goal of expediting real-world deployment of robotic systems.<br><br>
-My past work includes research in domain generalization for computer vision in autonomous vehicles and semantic segmentation of satellite imagery.
-During my tenure as a Resarch Assistant at the Artificial Intelligence and Robotics Lab, [(AIRL)](https://www.linkedin.com/company/artificial-intelligence-and-robotics-laboratory/posts/?feedView=all), Indian Institute of Science [(IISc)](https://aero.iisc.ac.in/), I was advised by Prof. [Suresh Sundaram](https://scholar.google.com/citations?user=5iAMbhMAAAAJ&hl=en&oi=ao). My work primarily focused on projects involving computer vision and robotics.<br><br>
+My MRSD project [(Zenavatar)](https://mrsdprojects.ri.cmu.edu/2025teamf/) tackled end-to-end humanoid tote logistics integrating perception, manipulation, locomotion with RL, and planning into a unified, deployment-ready system. Over the summer of 2025 I interned at [(Nissan)](https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ADVANCED_TECH_CENTER/) extending the visual and manipulation capabilities of the project with VLAs. 
+
+My past research includes domain generalization for autonomous vehicle and aerial perception, specifically semantic segmentation. 
+At the Artificial Intelligence and Robotics Lab, [(AIRL)](https://www.linkedin.com/company/artificial-intelligence-and-robotics-laboratory/posts/?feedView=all), Indian Institute of Science [(IISc)](https://aero.iisc.ac.in/), I was advised by Prof. [Suresh Sundaram](https://scholar.google.com/citations?user=5iAMbhMAAAAJ&hl=en&oi=ao), where I worked on computer vision and robotics projects focused on robust real-world deployment.<br><br>
 
 Recently, at CMU I have been working on general autonomy and long-horizon tasks for humanoids.
 
