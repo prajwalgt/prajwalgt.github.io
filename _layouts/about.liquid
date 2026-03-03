@@ -71,8 +71,24 @@ layout: default
       </h2>
       <div class="projects">
         {% assign sorted_projects = site.projects | sort: "importance" %}
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
-          {% for project in sorted_projects limit: 3 %}
+        {% assign projects_limit = 5 %}
+        {% assign projects_count = sorted_projects | size %}
+        {% if projects_count > projects_limit %}
+          {% assign projects_count = projects_limit %}
+        {% endif %}
+        {% assign is_odd = projects_count | modulo: 2 %}
+        <style>
+          @media (min-width: 768px) {
+            .projects-center-last .col:last-child {
+              margin-left: auto !important;
+              margin-right: auto !important;
+              flex: 0 0 50% !important;
+              max-width: 50% !important;
+            }
+          }
+        </style>
+        <div class="row row-cols-1 row-cols-md-2{% if is_odd == 1 %} projects-center-last{% endif %}">
+          {% for project in sorted_projects limit: projects_limit %}
             {% include projects.liquid %}
           {% endfor %}
         </div>

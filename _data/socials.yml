@@ -8,9 +8,11 @@
 # dblp_url: # your DBLP profile url
 # discord_id: # your discord id (18-digit unique numerical identifier)
 email: prajwalg8@gmail.com # your email address
+scholar_userid: 1D-q8wwAAAAJ&hl # your Google Scholar ID
+github_username: prajwalgt # your GitHub user name
+linkedin_username: prajwal-gurunath # your LinkedIn user name
 # facebook_id: # your facebook id
 # flickr_id: # your flickr id
-github_username: prajwalgt # your GitHub user name
 # gitlab_username: # your GitLab user name
 # ieee_id: # your ieeexplore.ieee.org/author/id
 # inspirehep_id: 1010907 # Inspire HEP author ID
@@ -20,7 +22,6 @@ github_username: prajwalgt # your GitHub user name
 # lastfm_id: # your lastfm id
 # lattes_id: # your ID on Lattes (Brazilian Lattes CV)
 # leetcode_id: # your LeetCode id
-linkedin_username: prajwal-gurunath # your LinkedIn user name
 # mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 # medium_username: # your Medium username
 # orcid_id: # your ORCID ID
@@ -30,7 +31,6 @@ linkedin_username: prajwal-gurunath # your LinkedIn user name
 # quora_username: # your Quora username
 # research_gate_profile: # your profile on ResearchGate
 # rss_icon: false # set to true to show the RSS icon
-scholar_userid: 1D-q8wwAAAAJ&hl # your Google Scholar ID
 # scopus_id: # your profile on Scopus
 # semanticscholar_id: # your Semantic Scholar ID
 # spotify_id: # your spotify id

@@ -1,13 +1,13 @@
 ---
 layout: page
 title: Autonomous Humanoid Loco-Manipulation for Tote Logistics
-description: CMU MRSD Capstone Project, sponsored by Nissan and Field AI
+description: CMU MRSD Capstone Project (Spring 2025), sponsored by Nissan and Field AI
 img: assets/img/capstone_uncompressed.gif
 importance: 1
 category: work
 ---
 
-**CMU MRSD Capstone Project, sponsored by [Nissan](https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ADVANCED_TECH_CENTER/) and [Field AI](https://www.fieldai.com/)**  
+**CMU MRSD Capstone Project (Spring 2025), sponsored by [Nissan](https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ADVANCED_TECH_CENTER/) and [Field AI](https://www.fieldai.com/)**  
 **Advised by [Prof. Guanya Shi](https://www.gshi.me/)**  
 View the [project website](https://mrsdprojects.ri.cmu.edu/2025teamf/)
 
@@ -24,13 +24,33 @@ Developed the autonomy stack, specifically the perception for 6D pose estimation
     </div>
 </div>
 <div class="caption">
-    Autonomous humanoid robot demonstrating tote manipulation capabilities.
+    Autonomous humanoid robot demonstrating tote loco-manipulation capabilities.
 </div>
 
 ## Project Poster
 
 <div style="margin-top: 2rem; margin-bottom: 2rem;">
-  <iframe src="{{ '/assets/pdf/TeamF_Poster.pdf' | relative_url }}" width="100%" height="800px" style="border: 1px solid #ddd; border-radius: 0.375rem; box-shadow: 0 2px 4px rgba(0,0,0,0.1);"></iframe>
+  <style>
+    .poster-iframe {
+      width: 100%;
+      height: 600px;
+      border: 1px solid #ddd;
+      border-radius: 0.375rem;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      max-width: 100%;
+    }
+    @media (max-width: 768px) {
+      .poster-iframe {
+        height: 400px;
+      }
+    }
+    @media (max-width: 576px) {
+      .poster-iframe {
+        height: 300px;
+      }
+    }
+  </style>
+  <iframe src="{{ '/assets/pdf/TeamF_Poster.pdf' | relative_url }}" class="poster-iframe" allowfullscreen></iframe>
   <div style="margin-top: 1rem; text-align: center;">
     <a href="{{ '/assets/pdf/TeamF_Poster.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer" style="color: #0076df; text-decoration: none;">
       <i class="fa-solid fa-download"></i> Download PDF

@@ -3,7 +3,7 @@ layout: page
 title: Real-time Semantic 6D Pose Estimation
 description: Autoselects semantic masks and launches FoundationPose in real-time
 img: assets/img/fpose_title_card.gif
-importance: 3
+importance: 2
 category: work
 ---
 

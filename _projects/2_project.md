@@ -3,7 +3,7 @@ layout: page
 title: Steerable Imitation Learning Under Perturbations
 description: Generate smooth walking motions for the robot to mimic and use it to steer it in any direction and under forces!
 img: assets/img/mimic_main.gif
-importance: 1
+importance: 3
 category: work
 giscus_comments: false
 ---
