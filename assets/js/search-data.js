@@ -424,56 +424,26 @@ ninja.data = [{
           section: "News",},{id: "news-joined-prof-jean-oh-s-group-as-a-graduate-research-assistant-working-on-world-models-for-enhanced-spatial-understanding",
           title: 'Joined Prof. Jean Oh’s group as a Graduate Research Assistant, working on world...',
           description: "",
-          section: "News",},{id: "projects-your-project-name",
-          title: 'Your Project Name',
-          description: "Brief description of your project",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/10_project/";
-            },},{id: "projects-autonomous-humanoid-loco-manipulation-for-tote-logistics",
+          section: "News",},{id: "projects-autonomous-humanoid-loco-manipulation-for-tote-logistics",
           title: 'Autonomous Humanoid Loco-Manipulation for Tote Logistics',
           description: "CMU MRSD Capstone Project, sponsored by Nissan and Field AI",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-steerable-imitation-learning-under-perturbations",
+          title: 'Steerable Imitation Learning Under Perturbations',
+          description: "Generate smooth walking motions for the robot to mimic and use it to steer it in any direction and under forces!",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+            },},{id: "projects-real-time-semantic-6d-pose-estimation",
+          title: 'Real-time Semantic 6D Pose Estimation',
+          description: "Autoselects semantic masks and launches FoundationPose in real-time",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
             },},{id: "projects-autonomous-shelf-organizer",
           title: 'Autonomous Shelf Organizer',
           description: "Autonomous In-place Sorting of Items On Shelves SO(n)RT",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
             },},{
         id: 'social-email',
         title: 'email',
