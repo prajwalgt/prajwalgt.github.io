@@ -426,7 +426,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-autonomous-humanoid-loco-manipulation-for-tote-logistics",
           title: 'Autonomous Humanoid Loco-Manipulation for Tote Logistics',
-          description: "CMU MRSD Capstone Project, sponsored by Nissan and Field AI",
+          description: "CMU MRSD Capstone Project (Spring 2025), sponsored by Nissan and Field AI",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-steerable-imitation-learning-under-perturbations",
@@ -434,6 +434,11 @@ ninja.data = [{
           description: "Generate smooth walking motions for the robot to mimic and use it to steer it in any direction and under forces!",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
+            },},{id: "projects-humanoid-manipulation-with-vision-language-action-model",
+          title: 'Humanoid Manipulation with Vision-Language-Action Model',
+          description: "CMU MRSD Capstone Project (Fall 2025), sponsored by Nissan and Field AI",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_project/";
             },},{id: "projects-real-time-semantic-6d-pose-estimation",
           title: 'Real-time Semantic 6D Pose Estimation',
           description: "Autoselects semantic masks and launches FoundationPose in real-time",
@@ -452,6 +457,13 @@ ninja.data = [{
           window.open("mailto:%70%72%61%6A%77%61%6C%67%38@%67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
+        id: 'social-scholar',
+        title: 'Google Scholar',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://scholar.google.com/citations?user=1D-q8wwAAAAJ&hl", "_blank");
+        },
+      },{
         id: 'social-github',
         title: 'GitHub',
         section: 'Socials',
@@ -464,13 +476,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://www.linkedin.com/in/prajwal-gurunath", "_blank");
-        },
-      },{
-        id: 'social-scholar',
-        title: 'Google Scholar',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://scholar.google.com/citations?user=1D-q8wwAAAAJ&hl", "_blank");
         },
       },{
       id: 'light-theme',
