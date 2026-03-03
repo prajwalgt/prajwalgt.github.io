@@ -35,7 +35,7 @@ related_publications: false
     }
   </style>
   <a href="{{ '/assets/pdf/Autonomy_Project_So_n_rt.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer" class="project-pdf-btn">
-    <i class="fa-solid fa-file-pdf"></i> View Full Project Report
+    <i class="fa-solid fa-file-pdf"></i> Project Report
   </a>
 </div>
 

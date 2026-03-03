@@ -731,16 +731,22 @@ footer.sticky-bottom {
 
       .row {
         display: flex;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         align-items: flex-start;
       }
 
       .preview {
-        max-width: 250px !important;
+        max-width: 100% !important;
         width: 100% !important;
         height: auto;
         display: block;
         margin-bottom: 0.5rem;
+      }
+      
+      @media (min-width: 576px) {
+        .preview {
+          max-width: 250px !important;
+        }
       }
 
       .abbr {

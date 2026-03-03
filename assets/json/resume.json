@@ -7,12 +7,12 @@
             "url": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ADVANCED_TECH_CENTER/",
             "startDate": "2025-05-01",
             "endDate": "2025-08-01",
-            "topic": ["Humanoid Control with VLAs (Gr00t, diffusion policies)"]
+            "topic": ["Humanoid Control with VLAs (GR00T, diffusion policies)"]
           },
           {
-            "name": "Indian Institute of Science, Bengaluru, India",
+            "name": "Artificial Intelligence and Robotics Lab, Indian Institute of Science, Bengaluru, India",
             "position": "Research Assistant",
-            "logo": "iisclogo.jpg",
+            "logo": "AIRL_logo.jpg",
             "url": "https://aero.iisc.ac.in/",
             "startDate": "2022-05-01",
             "endDate": "2024-08-01",
@@ -48,7 +48,7 @@
             "startDate": "2024-08-01",
             "endDate": "2026-05-01",
             "score": "3.9",
-            "courses": ["Advanced Computer Vision", "Learning for 3D Vision", "Deep Reinforcement Learning", "Deep Learning Systems", "Robot Autonomy", "Robot Mobility", "Systems Engineering", "Advanced Robotics Business"]
+            "courses": ["Learning for 3D Vision", "Deep Reinforcement Learning", "Intro to Deep Learning", "Advanced Computer Vision", "Deep Learning Systems", "Robot Autonomy", "Robot Mobility", "Systems Engineering", "Advanced Robotics Business"]
           },
           {
             "institution": "PES University, Bengaluru, India",
